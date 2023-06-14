@@ -11,7 +11,7 @@ int main ()
     std::string line;
     std::string srch;
 
-    std::fstream userFile;
+    std::fstream userFile; 
     std::cout << "Enter the name of an existing file: ";
     std::cin >> filename;
     std::cout << "Enter a word in the existing file: ";
